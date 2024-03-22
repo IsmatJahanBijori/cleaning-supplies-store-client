@@ -17,7 +17,7 @@ const Navbar = () => {
             <Container>
                 <div className="mx-auto flex justify-between items-center">
                     <div className="flex items-center">
-                        <span className="text-2xl font-bold block">Aid <span>Dispatch Central</span></span>
+                        <span className="text-2xl font-bold block">Scrubs Emporium</span>
 
                     </div>
                     <div className="hidden lg:block">
