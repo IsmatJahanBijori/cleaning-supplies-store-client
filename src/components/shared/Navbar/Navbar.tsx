@@ -24,7 +24,7 @@ const Navbar = () => {
                         <Link className="nav-link" href="/">Home</Link>
                         <Link className="nav-link" href="/catergories">Catergories</Link>
                         <Link className="nav-link" href="/products">Products</Link>
-                        <Link className="nav-link" href="/flashsales">Flashsales</Link>
+                        <Link className="nav-link" href="/flash-sale">Flashsales</Link>
                         <Link className="nav-link" href="/about-us">About Us</Link>
                         <Link className="nav-link" href="/contact-us">Contact Us</Link>
 
@@ -45,7 +45,7 @@ const Navbar = () => {
                         <Link className="nav-link" href="/">Home</Link>
                         <Link className="nav-link" href="/catergories">Catergories</Link>
                         <Link className="nav-link" href="/products">Products</Link>
-                        <Link className="nav-link" href="/flashsales">Flashsales</Link>
+                        <Link className="nav-link" href="/flash-sale">Flashsales</Link>
                         <Link className="nav-link" href="/about-us">About Us</Link>
                         <Link className="nav-link" href="/contact-us">Contact Us</Link>
 

@@ -11,8 +11,8 @@ const Footer = () => {
     const currentMonth = months[currentDate.getMonth()];
     return (
         <footer className=" body-font ">
-            <Container>
-                <div className=" py-10 mx-auto">
+            <Container className="border-t-2 mt-20">
+                <div className="py-10 mx-auto">
                     <div className="flex flex-wrap md:text-left text-center">
                         <div className="w-1/2 md:w-1/4  px-2">
                             <h2 className="title-font font-medium  tracking-widest text-sm mb-3">Links</h2>
