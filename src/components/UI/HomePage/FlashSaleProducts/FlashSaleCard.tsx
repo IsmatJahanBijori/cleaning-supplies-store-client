@@ -12,7 +12,7 @@ const FlashSaleCard = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10 md:mt-14">
             {
                 flashSale?.map((item: any) =>
-                    <div className='mx-auto'>
+                    <div className='mx-auto' key={item.id}>
                         <Image width={300} height={1000} className="rounded-lg object-cover object-center" src={item.imageUrl} alt="blog" />
                         <div className="my-3 ">
                             <h1 className="text-lg md:text-xl font-semibold mb-3">{item.name}</h1>
