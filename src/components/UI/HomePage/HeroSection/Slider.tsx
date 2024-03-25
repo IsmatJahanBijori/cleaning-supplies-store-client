@@ -70,3 +70,33 @@
 // }
 
 // export default SSlider
+
+
+
+import Container from '@/components/Container'
+import { getFlashSaleData } from '@/utils/flashsale'
+import Image from 'next/image'
+import React from 'react'
+
+const Slider = () => {
+    const flashSaleData = getFlashSaleData()
+    const flashSale = flashSaleData.sort((a, b) => {
+        return (Number(new Date(b.createdAt))) - (Number(new Date(a.createdAt)));
+    })
+    return (
+
+        <div className="carousel carousel-center p-4 space-x-4  rounded-box">
+            {
+                flashSale?.map((data: any) =>
+                    <div className="carousel-item">
+                        <Container>
+                            <Image width={300} height={400} src={data.imageUrl} className="rounded-box object-contain" alt="" />
+                        </Container>
+
+                    </div>)
+            }
+        </div>
+    )
+}
+
+export default Slider
